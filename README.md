@@ -1,4 +1,2 @@
 # Telloscrap
-Scraper for tellonym.me accounts.
-
-### Usage
+Downloads Questions and Answers of Tellonym Accounts.
