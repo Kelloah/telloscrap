@@ -1,5 +1,5 @@
 # Telloscrap
-Crawler for Tellonym.me.
+Crawler for https://Tellonym.me.
 
 ### Description:
 It crawls the user info, questions and answers and saves it to a JSON file.
