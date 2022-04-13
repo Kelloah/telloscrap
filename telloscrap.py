@@ -129,7 +129,7 @@ def main(args):
 	# Write results to file
 	filename = '{0}.json'.format(data['user_info']['username'])
 	with open(filename, 'w') as f:
-		f.write(json.dumps(data, indent=4, sort_keys=True))
+		f.write(json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
 
 	print("[*] Results written to file '{0}'".format(filename))
 
