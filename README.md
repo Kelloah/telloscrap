@@ -3,7 +3,7 @@ Crawler for [Tellonym.me](https://tellonym.me)
 
 
 ### Description:
-The script crawls the user info, questions and answers of a User and saves it to a JSON file.
+The script crawls the user info, questions and answers of a Tellonym User and saves it to a JSON file.
 
 ### Usage:
 ```telloscrap.py USERNAME [--full]```
