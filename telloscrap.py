@@ -71,8 +71,7 @@ def help(args):
 	print("    Telloscrap is a crawler for Tellonym.me Users.")
 	print("    It downloads User Info, Questions and Answers and saves it to a file.\n")
 	print("    Usage: {0} USERNAME [--full]".format(args[0]))
-	print("    Use --full to save metadata too (Default: False).")
-
+	print("    Use --full to also save metadata of each question (Off by default).\n")
 
 def abort():
 	print("[*] Aborting...")
@@ -117,7 +116,6 @@ def main(args):
 			print("    Note: Although there were tells once, we cant see them anymore :(")
 		else:
 			print("    Note: It seems not all Tells can be seen anymore.")
-
 	
 	# Clean the JSON of data we dont need
 	keep_metadata = False
